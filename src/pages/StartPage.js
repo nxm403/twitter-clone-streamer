@@ -44,7 +44,7 @@ const Main = styled.main`
   }
 `
 
-export default function Startpage() {
+export default function StartPage() {
   const onClickUser = (id) => {
     saveToStorage('user', id)
     window.location.href = '/home'
